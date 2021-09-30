@@ -1,0 +1,113 @@
+#dv {
+	position: relative;
+	height: 400px;
+	width: 25%;
+	left: 37%;
+}
+
+#box {
+	border-radius: 5px;
+	position: absolute;
+	border: 2px solid red;
+	border-bottom: 0px;
+	height: 100%;
+    width: 100%;
+    overflow-wrap: break-word;
+	overflow-y: scroll;
+    right: 0px;
+}
+
+#box2 {
+	border: 2px solid red;
+	position: absolute;
+	top: 100%;
+    right: 0px;
+	width: 100%;
+	border-radius: 5px;
+	border-top: 0px;
+}
+
+#msg {
+	width: 100%;
+	left: 0px;
+	border: none;
+	box-sizing: border-box;
+	background: rgb(255, 255, 255);
+	outline: none;
+	border-radius: 5px;
+	border-bottom: 2px solid red;
+	border-top: 1px solid rgb(76, 180, 240);
+    padding: 5px;
+    padding-left: 7px;
+}
+
+#sub {
+	width: 100%;
+	border: none;
+	background: rgb(29, 153, 255);
+	outline: none;
+	border-radius: 5px;
+    color: aliceblue;
+    padding: 5px;
+}
+#sub:hover{
+	width: 100%;
+	border: none;
+	background: rgb(21, 131, 221);
+	outline: none;
+	border-radius: 5px;
+    color: aliceblue;
+    padding: 5px;
+}
+#nameF {
+    position: absolute;
+	left: 8%;
+    top: 25%;
+    width: 20%;
+}
+#userid{
+    display: inline-block;
+    max-width: 60%;
+    left: 0px;
+	border: none;
+	box-sizing: border-box;
+	background: rgb(255, 255, 255);
+	outline: none;
+	border-radius: 0px;
+	border-bottom: 2px solid red;
+    padding-left: 5px;
+    padding: 10px;
+}
+#id_reg{
+    display: inline-block;
+    border: none;
+	background: rgb(29, 153, 255);
+	outline: none;
+	border-radius: 5px;
+    color: aliceblue;
+    padding: 10px;
+}
+#id_reg:hover{
+    display: inline-block;
+    border: none;
+	background: rgb(21, 131, 221);
+	outline: none;
+	border-radius: 5px;
+    color: aliceblue;
+    padding: 10px;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}       
+::-webkit-scrollbar-thumb{
+    background: red;
+    border-radius: 5px;
+}    
+::-webkit-scrollbar-thumb:active{
+    background:rgb(214, 0, 0);
+    border-radius: 5px;
+}
+::-webkit-scrollbar-track{
+    background: -webkit-linear-gradient(rgba(0, 0, 255, 0.2), rgba(0, 128, 0, 0.2));
+    border-radius: 5px;
+}
